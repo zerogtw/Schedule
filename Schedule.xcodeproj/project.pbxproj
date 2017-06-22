@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA0F65921EFAD2560071F181 /* AddScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0F65911EFAD2560071F181 /* AddScheduleViewController.m */; };
+		DA8424D31EED427E00A558FB /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8424CD1EED427E00A558FB /* CoreDataTableViewController.m */; };
+		DA86FB541EF6759300E6EFEC /* Schedule+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DA86FB4D1EF6759300E6EFEC /* Schedule+CoreDataClass.m */; };
+		DA86FB551EF6759300E6EFEC /* Schedule+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = DA86FB4F1EF6759300E6EFEC /* Schedule+CoreDataProperties.m */; };
+		DA86FB561EF6759300E6EFEC /* DailySchedule+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DA86FB511EF6759300E6EFEC /* DailySchedule+CoreDataClass.m */; };
+		DA86FB571EF6759300E6EFEC /* DailySchedule+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = DA86FB531EF6759300E6EFEC /* DailySchedule+CoreDataProperties.m */; };
+		DACC253C1EF81389006491FD /* ScheduleByDailyScheduleCDTVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DACC253B1EF81389006491FD /* ScheduleByDailyScheduleCDTVCViewController.m */; };
+		DAD728351EEED81800D2D335 /* ScheduleCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD728341EEED81800D2D335 /* ScheduleCDTVC.m */; };
+		DAE2B1B01EF6790900301EA6 /* DailyScheduleCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE2B1AF1EF6790900301EA6 /* DailyScheduleCDTVC.m */; };
+		DAE2B1B51EF68E3B00301EA6 /* ScheduleInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE2B1B41EF68E3B00301EA6 /* ScheduleInfo.m */; };
+		DAF2B5651EECF6B900001BD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF2B5641EECF6B900001BD0 /* main.m */; };
+		DAF2B5681EECF6B900001BD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF2B5671EECF6B900001BD0 /* AppDelegate.m */; };
+		DAF2B56B1EECF6B900001BD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF2B56A1EECF6B900001BD0 /* ViewController.m */; };
+		DAF2B56E1EECF6B900001BD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF2B56C1EECF6B900001BD0 /* Main.storyboard */; };
+		DAF2B5711EECF6B900001BD0 /* Schedule.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAF2B56F1EECF6B900001BD0 /* Schedule.xcdatamodeld */; };
+		DAF2B5731EECF6B900001BD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF2B5721EECF6B900001BD0 /* Assets.xcassets */; };
+		DAF2B5761EECF6B900001BD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF2B5741EECF6B900001BD0 /* LaunchScreen.storyboard */; };
+		DAF2B5811EECF6B900001BD0 /* ScheduleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF2B5801EECF6B900001BD0 /* ScheduleTests.m */; };
+		DAF2B58C1EECF6B900001BD0 /* ScheduleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF2B58B1EECF6B900001BD0 /* ScheduleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAF2B57D1EECF6B900001BD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF2B5581EECF6B900001BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF2B55F1EECF6B900001BD0;
+			remoteInfo = Schedule;
+		};
+		DAF2B5881EECF6B900001BD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF2B5581EECF6B900001BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF2B55F1EECF6B900001BD0;
+			remoteInfo = Schedule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA0CC7981EF673C800CB2A76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA0F65901EFAD2560071F181 /* AddScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddScheduleViewController.h; sourceTree = "<group>"; };
+		DA0F65911EFAD2560071F181 /* AddScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddScheduleViewController.m; sourceTree = "<group>"; };
+		DA8424CC1EED427E00A558FB /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		DA8424CD1EED427E00A558FB /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		DA86FB4C1EF6759300E6EFEC /* Schedule+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Schedule+CoreDataClass.h"; sourceTree = "<group>"; };
+		DA86FB4D1EF6759300E6EFEC /* Schedule+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Schedule+CoreDataClass.m"; sourceTree = "<group>"; };
+		DA86FB4E1EF6759300E6EFEC /* Schedule+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Schedule+CoreDataProperties.h"; sourceTree = "<group>"; };
+		DA86FB4F1EF6759300E6EFEC /* Schedule+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Schedule+CoreDataProperties.m"; sourceTree = "<group>"; };
+		DA86FB501EF6759300E6EFEC /* DailySchedule+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DailySchedule+CoreDataClass.h"; sourceTree = "<group>"; };
+		DA86FB511EF6759300E6EFEC /* DailySchedule+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DailySchedule+CoreDataClass.m"; sourceTree = "<group>"; };
+		DA86FB521EF6759300E6EFEC /* DailySchedule+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DailySchedule+CoreDataProperties.h"; sourceTree = "<group>"; };
+		DA86FB531EF6759300E6EFEC /* DailySchedule+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DailySchedule+CoreDataProperties.m"; sourceTree = "<group>"; };
+		DACC253A1EF81389006491FD /* ScheduleByDailyScheduleCDTVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleByDailyScheduleCDTVCViewController.h; sourceTree = "<group>"; };
+		DACC253B1EF81389006491FD /* ScheduleByDailyScheduleCDTVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleByDailyScheduleCDTVCViewController.m; sourceTree = "<group>"; };
+		DAD728331EEED81800D2D335 /* ScheduleCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleCDTVC.h; sourceTree = "<group>"; };
+		DAD728341EEED81800D2D335 /* ScheduleCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleCDTVC.m; sourceTree = "<group>"; };
+		DAE2B1AE1EF6790900301EA6 /* DailyScheduleCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyScheduleCDTVC.h; sourceTree = "<group>"; };
+		DAE2B1AF1EF6790900301EA6 /* DailyScheduleCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyScheduleCDTVC.m; sourceTree = "<group>"; };
+		DAE2B1B21EF67DDA00301EA6 /* ScheduleDatabaseAvailability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScheduleDatabaseAvailability.h; sourceTree = SOURCE_ROOT; };
+		DAE2B1B31EF68E3B00301EA6 /* ScheduleInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleInfo.h; sourceTree = "<group>"; };
+		DAE2B1B41EF68E3B00301EA6 /* ScheduleInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleInfo.m; sourceTree = "<group>"; };
+		DAF2B5601EECF6B900001BD0 /* Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF2B5641EECF6B900001BD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAF2B5661EECF6B900001BD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAF2B5671EECF6B900001BD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAF2B5691EECF6B900001BD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAF2B56A1EECF6B900001BD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAF2B56D1EECF6B900001BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAF2B5701EECF6B900001BD0 /* Schedule.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Schedule.xcdatamodel; sourceTree = "<group>"; };
+		DAF2B5721EECF6B900001BD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAF2B5751EECF6B900001BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAF2B5771EECF6B900001BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF2B57C1EECF6B900001BD0 /* ScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScheduleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF2B5801EECF6B900001BD0 /* ScheduleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScheduleTests.m; sourceTree = "<group>"; };
+		DAF2B5821EECF6B900001BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF2B5871EECF6B900001BD0 /* ScheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScheduleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF2B58B1EECF6B900001BD0 /* ScheduleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScheduleUITests.m; sourceTree = "<group>"; };
+		DAF2B58D1EECF6B900001BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAF2B55D1EECF6B900001BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF2B5791EECF6B900001BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF2B5841EECF6B900001BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA0CC7971EF673C800CB2A76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA0CC7981EF673C800CB2A76 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA8424CB1EED427E00A558FB /* CoreDataTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DA8424CC1EED427E00A558FB /* CoreDataTableViewController.h */,
+				DA8424CD1EED427E00A558FB /* CoreDataTableViewController.m */,
+			);
+			path = CoreDataTableViewController;
+			sourceTree = "<group>";
+		};
+		DAF2B5571EECF6B900001BD0 = {
+			isa = PBXGroup;
+			children = (
+				DAF2B5621EECF6B900001BD0 /* Schedule */,
+				DAF2B57F1EECF6B900001BD0 /* ScheduleTests */,
+				DAF2B58A1EECF6B900001BD0 /* ScheduleUITests */,
+				DAF2B5611EECF6B900001BD0 /* Products */,
+				DA0CC7971EF673C800CB2A76 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DAF2B5611EECF6B900001BD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAF2B5601EECF6B900001BD0 /* Schedule.app */,
+				DAF2B57C1EECF6B900001BD0 /* ScheduleTests.xctest */,
+				DAF2B5871EECF6B900001BD0 /* ScheduleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAF2B5621EECF6B900001BD0 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				DA86FB4C1EF6759300E6EFEC /* Schedule+CoreDataClass.h */,
+				DA86FB4D1EF6759300E6EFEC /* Schedule+CoreDataClass.m */,
+				DAE2B1B31EF68E3B00301EA6 /* ScheduleInfo.h */,
+				DAE2B1B41EF68E3B00301EA6 /* ScheduleInfo.m */,
+				DA86FB4E1EF6759300E6EFEC /* Schedule+CoreDataProperties.h */,
+				DA86FB4F1EF6759300E6EFEC /* Schedule+CoreDataProperties.m */,
+				DA86FB501EF6759300E6EFEC /* DailySchedule+CoreDataClass.h */,
+				DA86FB511EF6759300E6EFEC /* DailySchedule+CoreDataClass.m */,
+				DA86FB521EF6759300E6EFEC /* DailySchedule+CoreDataProperties.h */,
+				DA86FB531EF6759300E6EFEC /* DailySchedule+CoreDataProperties.m */,
+				DAE2B1B21EF67DDA00301EA6 /* ScheduleDatabaseAvailability.h */,
+				DAF2B56F1EECF6B900001BD0 /* Schedule.xcdatamodeld */,
+				DAF2B5661EECF6B900001BD0 /* AppDelegate.h */,
+				DAF2B5671EECF6B900001BD0 /* AppDelegate.m */,
+				DAF2B5691EECF6B900001BD0 /* ViewController.h */,
+				DAF2B56A1EECF6B900001BD0 /* ViewController.m */,
+				DA8424CB1EED427E00A558FB /* CoreDataTableViewController */,
+				DAF2B56C1EECF6B900001BD0 /* Main.storyboard */,
+				DA0F65901EFAD2560071F181 /* AddScheduleViewController.h */,
+				DA0F65911EFAD2560071F181 /* AddScheduleViewController.m */,
+				DAF2B5771EECF6B900001BD0 /* Info.plist */,
+				DAF2B5721EECF6B900001BD0 /* Assets.xcassets */,
+				DAF2B5741EECF6B900001BD0 /* LaunchScreen.storyboard */,
+				DAF2B5631EECF6B900001BD0 /* Supporting Files */,
+				DAD728331EEED81800D2D335 /* ScheduleCDTVC.h */,
+				DACC253A1EF81389006491FD /* ScheduleByDailyScheduleCDTVCViewController.h */,
+				DACC253B1EF81389006491FD /* ScheduleByDailyScheduleCDTVCViewController.m */,
+				DAD728341EEED81800D2D335 /* ScheduleCDTVC.m */,
+				DAE2B1AE1EF6790900301EA6 /* DailyScheduleCDTVC.h */,
+				DAE2B1AF1EF6790900301EA6 /* DailyScheduleCDTVC.m */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		DAF2B5631EECF6B900001BD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAF2B5641EECF6B900001BD0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAF2B57F1EECF6B900001BD0 /* ScheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAF2B5801EECF6B900001BD0 /* ScheduleTests.m */,
+				DAF2B5821EECF6B900001BD0 /* Info.plist */,
+			);
+			path = ScheduleTests;
+			sourceTree = "<group>";
+		};
+		DAF2B58A1EECF6B900001BD0 /* ScheduleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAF2B58B1EECF6B900001BD0 /* ScheduleUITests.m */,
+				DAF2B58D1EECF6B900001BD0 /* Info.plist */,
+			);
+			path = ScheduleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAF2B55F1EECF6B900001BD0 /* Schedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF2B5901EECF6B900001BD0 /* Build configuration list for PBXNativeTarget "Schedule" */;
+			buildPhases = (
+				DAF2B55C1EECF6B900001BD0 /* Sources */,
+				DAF2B55D1EECF6B900001BD0 /* Frameworks */,
+				DAF2B55E1EECF6B900001BD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Schedule;
+			productName = Schedule;
+			productReference = DAF2B5601EECF6B900001BD0 /* Schedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAF2B57B1EECF6B900001BD0 /* ScheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF2B5931EECF6B900001BD0 /* Build configuration list for PBXNativeTarget "ScheduleTests" */;
+			buildPhases = (
+				DAF2B5781EECF6B900001BD0 /* Sources */,
+				DAF2B5791EECF6B900001BD0 /* Frameworks */,
+				DAF2B57A1EECF6B900001BD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF2B57E1EECF6B900001BD0 /* PBXTargetDependency */,
+			);
+			name = ScheduleTests;
+			productName = ScheduleTests;
+			productReference = DAF2B57C1EECF6B900001BD0 /* ScheduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAF2B5861EECF6B900001BD0 /* ScheduleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF2B5961EECF6B900001BD0 /* Build configuration list for PBXNativeTarget "ScheduleUITests" */;
+			buildPhases = (
+				DAF2B5831EECF6B900001BD0 /* Sources */,
+				DAF2B5841EECF6B900001BD0 /* Frameworks */,
+				DAF2B5851EECF6B900001BD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF2B5891EECF6B900001BD0 /* PBXTargetDependency */,
+			);
+			name = ScheduleUITests;
+			productName = ScheduleUITests;
+			productReference = DAF2B5871EECF6B900001BD0 /* ScheduleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAF2B5581EECF6B900001BD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Zero;
+				TargetAttributes = {
+					DAF2B55F1EECF6B900001BD0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 586HC6UPA9;
+						ProvisioningStyle = Automatic;
+					};
+					DAF2B57B1EECF6B900001BD0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 586HC6UPA9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAF2B55F1EECF6B900001BD0;
+					};
+					DAF2B5861EECF6B900001BD0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 586HC6UPA9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAF2B55F1EECF6B900001BD0;
+					};
+				};
+			};
+			buildConfigurationList = DAF2B55B1EECF6B900001BD0 /* Build configuration list for PBXProject "Schedule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAF2B5571EECF6B900001BD0;
+			productRefGroup = DAF2B5611EECF6B900001BD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAF2B55F1EECF6B900001BD0 /* Schedule */,
+				DAF2B57B1EECF6B900001BD0 /* ScheduleTests */,
+				DAF2B5861EECF6B900001BD0 /* ScheduleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAF2B55E1EECF6B900001BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF2B5761EECF6B900001BD0 /* LaunchScreen.storyboard in Resources */,
+				DAF2B5731EECF6B900001BD0 /* Assets.xcassets in Resources */,
+				DAF2B56E1EECF6B900001BD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF2B57A1EECF6B900001BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF2B5851EECF6B900001BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAF2B55C1EECF6B900001BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF2B56B1EECF6B900001BD0 /* ViewController.m in Sources */,
+				DA8424D31EED427E00A558FB /* CoreDataTableViewController.m in Sources */,
+				DAE2B1B51EF68E3B00301EA6 /* ScheduleInfo.m in Sources */,
+				DAF2B5681EECF6B900001BD0 /* AppDelegate.m in Sources */,
+				DA86FB541EF6759300E6EFEC /* Schedule+CoreDataClass.m in Sources */,
+				DA0F65921EFAD2560071F181 /* AddScheduleViewController.m in Sources */,
+				DA86FB551EF6759300E6EFEC /* Schedule+CoreDataProperties.m in Sources */,
+				DA86FB561EF6759300E6EFEC /* DailySchedule+CoreDataClass.m in Sources */,
+				DAF2B5711EECF6B900001BD0 /* Schedule.xcdatamodeld in Sources */,
+				DA86FB571EF6759300E6EFEC /* DailySchedule+CoreDataProperties.m in Sources */,
+				DACC253C1EF81389006491FD /* ScheduleByDailyScheduleCDTVCViewController.m in Sources */,
+				DAD728351EEED81800D2D335 /* ScheduleCDTVC.m in Sources */,
+				DAF2B5651EECF6B900001BD0 /* main.m in Sources */,
+				DAE2B1B01EF6790900301EA6 /* DailyScheduleCDTVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF2B5781EECF6B900001BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF2B5811EECF6B900001BD0 /* ScheduleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF2B5831EECF6B900001BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF2B58C1EECF6B900001BD0 /* ScheduleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAF2B57E1EECF6B900001BD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF2B55F1EECF6B900001BD0 /* Schedule */;
+			targetProxy = DAF2B57D1EECF6B900001BD0 /* PBXContainerItemProxy */;
+		};
+		DAF2B5891EECF6B900001BD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF2B55F1EECF6B900001BD0 /* Schedule */;
+			targetProxy = DAF2B5881EECF6B900001BD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAF2B56C1EECF6B900001BD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF2B56D1EECF6B900001BD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAF2B5741EECF6B900001BD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF2B5751EECF6B900001BD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAF2B58E1EECF6B900001BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAF2B58F1EECF6B900001BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAF2B5911EECF6B900001BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 586HC6UPA9;
+				INFOPLIST_FILE = Schedule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zero.Schedule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAF2B5921EECF6B900001BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 586HC6UPA9;
+				INFOPLIST_FILE = Schedule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zero.Schedule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAF2B5941EECF6B900001BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 586HC6UPA9;
+				INFOPLIST_FILE = ScheduleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zero.ScheduleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Schedule.app/Schedule";
+			};
+			name = Debug;
+		};
+		DAF2B5951EECF6B900001BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 586HC6UPA9;
+				INFOPLIST_FILE = ScheduleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zero.ScheduleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Schedule.app/Schedule";
+			};
+			name = Release;
+		};
+		DAF2B5971EECF6B900001BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 586HC6UPA9;
+				INFOPLIST_FILE = ScheduleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zero.ScheduleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Schedule;
+			};
+			name = Debug;
+		};
+		DAF2B5981EECF6B900001BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 586HC6UPA9;
+				INFOPLIST_FILE = ScheduleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zero.ScheduleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Schedule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAF2B55B1EECF6B900001BD0 /* Build configuration list for PBXProject "Schedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF2B58E1EECF6B900001BD0 /* Debug */,
+				DAF2B58F1EECF6B900001BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF2B5901EECF6B900001BD0 /* Build configuration list for PBXNativeTarget "Schedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF2B5911EECF6B900001BD0 /* Debug */,
+				DAF2B5921EECF6B900001BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF2B5931EECF6B900001BD0 /* Build configuration list for PBXNativeTarget "ScheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF2B5941EECF6B900001BD0 /* Debug */,
+				DAF2B5951EECF6B900001BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF2B5961EECF6B900001BD0 /* Build configuration list for PBXNativeTarget "ScheduleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF2B5971EECF6B900001BD0 /* Debug */,
+				DAF2B5981EECF6B900001BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DAF2B56F1EECF6B900001BD0 /* Schedule.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DAF2B5701EECF6B900001BD0 /* Schedule.xcdatamodel */,
+			);
+			currentVersion = DAF2B5701EECF6B900001BD0 /* Schedule.xcdatamodel */;
+			path = Schedule.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DAF2B5581EECF6B900001BD0 /* Project object */;
+}
